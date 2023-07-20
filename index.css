@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100%; /* This will make the container take up the full width of its parent element */
+    max-width: 25rem; /* This will limit the maximum width of the container to 600px */
+    margin: 0 auto; /* This will center the container horizontally in its parent element if it's smaller than the parent's width */
+    padding: 10px; /* This will add 20px of padding inside the container on all sides */
+    box-sizing: border-box; /* This will make sure that the padding is included in the container's total width and height, not added to it */
+
+}
+
+.content-container {
+    padding-top: 1rem;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+  
+
+    .logo {
+      width: 100px; /* This sets a specific width for the logo on larger screens */
+    }
+  
+    .avatar, .avatar-vangogh {
+      width: 2.125rem; /* This sets a specific width for the avatar on smaller screens */
+      height: 2.125rem;
+      border-radius: 50%;
+    }
+
+
+.image-header {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.avatar-vangogh {
+    max-width: 100px;
+    border-radius: 50%;
+    
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.account {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.location {
+    font-size: 12px;
+}
+
+.vangogh {
+    width: 23rem;
+}
+
+.icon-container {
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.icon {
+    height: 1.3rem;
+}
+
+.likes-comment {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.likes {
+    font-weight: bold;
+}
+
+.account-name {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.comment {
+    font-weight: 100;
+}
